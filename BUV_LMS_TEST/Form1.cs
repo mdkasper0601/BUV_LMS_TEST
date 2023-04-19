@@ -14,7 +14,7 @@ namespace BUV_LMS_TEST
 {
     public partial class Form1 : Form
     {
-        string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True";
+        string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True"; // muốn dùng phải đổi nguồn 
         SqlConnection cn;
         public Form1()
         {
@@ -80,6 +80,10 @@ namespace BUV_LMS_TEST
                         StudentForm studentForm = new StudentForm(); // hiện form student
                         studentForm.ShowDialog();
                     }
+                    else
+                    {
+                        MessageBox.Show("Incorrect password or username please try again!", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
 
@@ -99,6 +103,10 @@ namespace BUV_LMS_TEST
                         this.Hide();
                         TeacherForm teacherForm = new TeacherForm(); // hiện form teacher
                         teacherForm.ShowDialog();   
+                    }
+                    else
+                    {
+                        MessageBox.Show("Incorrect password or username please try again!","ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
             }
