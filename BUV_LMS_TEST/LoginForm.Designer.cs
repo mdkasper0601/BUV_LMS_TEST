@@ -1,6 +1,6 @@
 ﻿namespace BUV_LMS_TEST
 {
-    partial class Form1
+    partial class LoginForm
     {
         /// <summary>
         ///  Required designer variable.

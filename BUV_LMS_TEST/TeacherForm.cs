@@ -12,9 +12,17 @@ namespace BUV_LMS_TEST
 {
     public partial class TeacherForm : Form
     {
+        string teacherID;
+
         public TeacherForm()
         {
             InitializeComponent();
+        }
+
+        public TeacherForm(string id)
+        {
+            InitializeComponent();
+            teacherID = id;
         }
     }
 }
