@@ -35,6 +35,7 @@
             btnForum = new Button();
             btnInfo = new Button();
             lbWelcomeT = new Label();
+<<<<<<< HEAD
             btnAddCourse = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
             pnAdd = new Panel();
@@ -46,11 +47,17 @@
             tableLayoutPanel1.SuspendLayout();
             pnAdd.SuspendLayout();
             pnAdded.SuspendLayout();
+=======
+            btnAddCourses = new Button();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             SuspendLayout();
             // 
             // btnCourses
             // 
             btnCourses.Dock = DockStyle.Fill;
+<<<<<<< HEAD
             btnCourses.Location = new Point(3, 93);
             btnCourses.Name = "btnCourses";
             btnCourses.Size = new Size(81, 84);
@@ -58,50 +65,92 @@
             btnCourses.Text = "Courses";
             btnCourses.UseVisualStyleBackColor = true;
             btnCourses.Click += btnCourses_Click;
+=======
+            btnCourses.Location = new Point(4, 146);
+            btnCourses.Margin = new Padding(4, 5, 4, 5);
+            btnCourses.Name = "btnCourses";
+            btnCourses.Size = new Size(117, 131);
+            btnCourses.TabIndex = 0;
+            btnCourses.Text = "Courses";
+            btnCourses.UseVisualStyleBackColor = true;
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             // 
             // tableLayoutPanel2
             // 
             tableLayoutPanel2.BackColor = Color.FromArgb(190, 0, 0);
             tableLayoutPanel2.ColumnCount = 1;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+<<<<<<< HEAD
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
             tableLayoutPanel2.Controls.Add(tableLayoutPanel3, 0, 1);
             tableLayoutPanel2.Dock = DockStyle.Left;
             tableLayoutPanel2.Location = new Point(0, 0);
+=======
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 29F));
+            tableLayoutPanel2.Controls.Add(tableLayoutPanel3, 0, 1);
+            tableLayoutPanel2.Dock = DockStyle.Left;
+            tableLayoutPanel2.Location = new Point(0, 0);
+            tableLayoutPanel2.Margin = new Padding(4, 5, 4, 5);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 3;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 18.1556187F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 81.84438F));
+<<<<<<< HEAD
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 44F));
             tableLayoutPanel2.Size = new Size(93, 495);
+=======
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 73F));
+            tableLayoutPanel2.Size = new Size(133, 775);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             tableLayoutPanel2.TabIndex = 8;
             // 
             // tableLayoutPanel3
             // 
             tableLayoutPanel3.ColumnCount = 1;
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+<<<<<<< HEAD
             tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+=======
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 29F));
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             tableLayoutPanel3.Controls.Add(btnDashboard, 0, 0);
             tableLayoutPanel3.Controls.Add(btnCourses, 0, 1);
             tableLayoutPanel3.Controls.Add(btnForum, 0, 2);
             tableLayoutPanel3.Controls.Add(btnInfo, 0, 3);
             tableLayoutPanel3.Dock = DockStyle.Fill;
+<<<<<<< HEAD
             tableLayoutPanel3.Location = new Point(3, 84);
+=======
+            tableLayoutPanel3.Location = new Point(4, 132);
+            tableLayoutPanel3.Margin = new Padding(4, 5, 4, 5);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 4;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
+<<<<<<< HEAD
             tableLayoutPanel3.Size = new Size(87, 363);
+=======
+            tableLayoutPanel3.Size = new Size(125, 564);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             tableLayoutPanel3.TabIndex = 0;
             // 
             // btnDashboard
             // 
             btnDashboard.Dock = DockStyle.Fill;
+<<<<<<< HEAD
             btnDashboard.Location = new Point(3, 3);
             btnDashboard.Name = "btnDashboard";
             btnDashboard.Size = new Size(81, 84);
+=======
+            btnDashboard.Location = new Point(4, 5);
+            btnDashboard.Margin = new Padding(4, 5, 4, 5);
+            btnDashboard.Name = "btnDashboard";
+            btnDashboard.Size = new Size(117, 131);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             btnDashboard.TabIndex = 0;
             btnDashboard.Text = "Dashboard";
             btnDashboard.UseVisualStyleBackColor = true;
@@ -109,9 +158,16 @@
             // btnForum
             // 
             btnForum.Dock = DockStyle.Fill;
+<<<<<<< HEAD
             btnForum.Location = new Point(3, 183);
             btnForum.Name = "btnForum";
             btnForum.Size = new Size(81, 84);
+=======
+            btnForum.Location = new Point(4, 287);
+            btnForum.Margin = new Padding(4, 5, 4, 5);
+            btnForum.Name = "btnForum";
+            btnForum.Size = new Size(117, 131);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             btnForum.TabIndex = 0;
             btnForum.Text = "Forum";
             btnForum.UseVisualStyleBackColor = true;
@@ -119,9 +175,16 @@
             // btnInfo
             // 
             btnInfo.Dock = DockStyle.Fill;
+<<<<<<< HEAD
             btnInfo.Location = new Point(3, 273);
             btnInfo.Name = "btnInfo";
             btnInfo.Size = new Size(81, 87);
+=======
+            btnInfo.Location = new Point(4, 428);
+            btnInfo.Margin = new Padding(4, 5, 4, 5);
+            btnInfo.Name = "btnInfo";
+            btnInfo.Size = new Size(117, 131);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             btnInfo.TabIndex = 0;
             btnInfo.Text = "Infomation";
             btnInfo.UseVisualStyleBackColor = true;
@@ -129,6 +192,7 @@
             // lbWelcomeT
             // 
             lbWelcomeT.AutoSize = true;
+<<<<<<< HEAD
             lbWelcomeT.Location = new Point(2, 6);
             lbWelcomeT.Name = "lbWelcomeT";
             lbWelcomeT.Size = new Size(112, 15);
@@ -203,17 +267,49 @@
             ClientSize = new Size(815, 495);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(tableLayoutPanel2);
+=======
+            lbWelcomeT.Location = new Point(184, 63);
+            lbWelcomeT.Margin = new Padding(4, 0, 4, 0);
+            lbWelcomeT.Name = "lbWelcomeT";
+            lbWelcomeT.Size = new Size(169, 25);
+            lbWelcomeT.TabIndex = 9;
+            lbWelcomeT.Text = "Welcome, Professor";
+            // 
+            // btnAddCourses
+            // 
+            btnAddCourses.Location = new Point(184, 150);
+            btnAddCourses.Name = "btnAddCourses";
+            btnAddCourses.Size = new Size(112, 34);
+            btnAddCourses.TabIndex = 10;
+            btnAddCourses.Text = "Add Courses";
+            btnAddCourses.UseVisualStyleBackColor = true;
+            // 
+            // TeacherForm
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1164, 775);
+            Controls.Add(btnAddCourses);
+            Controls.Add(lbWelcomeT);
+            Controls.Add(tableLayoutPanel2);
+            Margin = new Padding(4, 5, 4, 5);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
             Name = "TeacherForm";
             Text = "TeacherForm";
             Load += TeacherForm_Load;
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
+<<<<<<< HEAD
             tableLayoutPanel1.ResumeLayout(false);
             pnAdd.ResumeLayout(false);
             pnAdd.PerformLayout();
             pnAdded.ResumeLayout(false);
             pnAdded.PerformLayout();
             ResumeLayout(false);
+=======
+            ResumeLayout(false);
+            PerformLayout();
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
         }
 
         #endregion
@@ -225,11 +321,15 @@
         private Button btnForum;
         private Button btnInfo;
         private Label lbWelcomeT;
+<<<<<<< HEAD
         private Button btnAddCourse;
         private TableLayoutPanel tableLayoutPanel1;
         private Panel pnAdd;
         private TextBox textBox1;
         private Panel pnAdded;
         private Label lbAdded;
+=======
+        private Button btnAddCourses;
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
     }
 }
