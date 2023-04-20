@@ -14,20 +14,19 @@ namespace BUV_LMS_TEST
 {
     public partial class TeacherForm : Form
     {
-        string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True";//dòng này là db trong Desktop của Đức nhớ đổi mới dùng được 
+        //string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True";//dòng này là db trong Desktop của Đức nhớ đổi mới dùng được 
+        string connectionString = "Data Source=MINHDUC\\SQLEXPRESS; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True"; //dòng này là db trong Lap của Đức cũng nhớ đổi mới dùng được
         SqlConnection cn;
 
         string teacherID;
 
-        public TeacherForm()
-        {
-            InitializeComponent();
-        }
 
         public TeacherForm(string id)
         {
             InitializeComponent();
             teacherID = id;
+            this.Width = Screen.PrimaryScreen.Bounds.Width;   // dòng này và dòng dưới để chỉnh form luôn t
+            this.Height = Screen.PrimaryScreen.Bounds.Height; // to bằng màn hình mọi máy
         }
 
         private void TeacherForm_Load(object sender, EventArgs e)
