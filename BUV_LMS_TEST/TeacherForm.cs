@@ -14,11 +14,25 @@ namespace BUV_LMS_TEST
 {
     public partial class TeacherForm : Form
     {
+<<<<<<< HEAD
 
 
         string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True";//dòng này là db trong Desktop của Đức nhớ đổi mới dùng được 
        // string connectionString = "Data Source=MINHDUC\\SQLEXPRESS; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True"; //dòng này là db trong Lap của Đức cũng nhớ đổi mới dùng được
 
+=======
+<<<<<<< HEAD
+        string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True";//dòng này là db trong Desktop của Đức nhớ đổi mới dùng được 
+        //string connectionString = "Data Source=MINHDUC\\SQLEXPRESS; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True"; //dòng này là db trong Lap của Đức cũng nhớ đổi mới dùng được
+=======
+<<<<<<< HEAD
+        string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True";//dòng này là db trong Desktop của Đức nhớ đổi mới dùng được 
+=======
+        //string connectionString = "Data Source=DESKTOP-I5RPD40; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True";//dòng này là db trong Desktop của Đức nhớ đổi mới dùng được 
+        string connectionString = "Data Source=MINHDUC\\SQLEXPRESS; Initial Catalog=BUV_LMS_TEST4; Integrated Security=True"; //dòng này là db trong Lap của Đức cũng nhớ đổi mới dùng được
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
         SqlConnection cn;
 
         string teacherID;

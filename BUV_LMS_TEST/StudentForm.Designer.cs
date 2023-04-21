@@ -31,25 +31,62 @@
             lbWelcome = new Label();
             lbDashboard = new Label();
             lbNoti = new Label();
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             tableLayoutPanel1 = new TableLayoutPanel();
             btnCourse1 = new Button();
             btnCourse2 = new Button();
             btnCourse3 = new Button();
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             tableLayoutPanel2 = new TableLayoutPanel();
             tableLayoutPanel3 = new TableLayoutPanel();
             btnDashboard = new Button();
             btnCourses = new Button();
             btnForum = new Button();
             btnInfo = new Button();
+<<<<<<< HEAD
 
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
 
+=======
+<<<<<<< HEAD
+            tableLayoutPanel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+=======
+<<<<<<< HEAD
+            btnCourse3 = new Button();
+            btnCourse2 = new Button();
+            btnCourse1 = new Button();
+            tableLayoutPanel1 = new TableLayoutPanel();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            tableLayoutPanel1.SuspendLayout();
+=======
+            tableLayoutPanel1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             SuspendLayout();
             // 
             // lbWelcome
@@ -84,7 +121,15 @@
             lbNoti.TabIndex = 1;
             lbNoti.Text = "ksfjasf";
             // 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
@@ -132,7 +177,14 @@
             btnCourse3.Text = "Course3";
             btnCourse3.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             // tableLayoutPanel2
             // 
             tableLayoutPanel2.BackColor = Color.FromArgb(190, 0, 0);
@@ -211,7 +263,13 @@
             btnInfo.Text = "Infomation";
             btnInfo.UseVisualStyleBackColor = true;
             // 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             // btnCourse3
             // 
             btnCourse3.Dock = DockStyle.Fill;
@@ -259,8 +317,14 @@
             tableLayoutPanel1.Size = new Size(828, 100);
             tableLayoutPanel1.TabIndex = 2;
             // 
+<<<<<<< HEAD
 
 
+=======
+=======
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             // StudentForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -275,12 +339,30 @@
             Name = "StudentForm";
             Text = "StudentForm";
             Load += StudentForm_Load;
+<<<<<<< HEAD
 
 
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
 
+=======
+<<<<<<< HEAD
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
+=======
+<<<<<<< HEAD
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
+            tableLayoutPanel1.ResumeLayout(false);
+=======
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
             ResumeLayout(false);
             PerformLayout();
         }
@@ -289,21 +371,49 @@
         private Label lbWelcome;
         private Label lbDashboard;
         private Label lbNoti;
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
         private TableLayoutPanel tableLayoutPanel1;
         private Button btnCourse1;
         private Button btnCourse2;
         private Button btnCourse3;
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
         private TableLayoutPanel tableLayoutPanel2;
         private TableLayoutPanel tableLayoutPanel3;
         private Button btnDashboard;
         private Button btnCourses;
         private Button btnForum;
         private Button btnInfo;
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+        private Button btnCourse3;
+        private Button btnCourse2;
+        private Button btnCourse1;
+        private TableLayoutPanel tableLayoutPanel1;
+=======
+>>>>>>> 385df7398596445f856a6cacee0c832897853c5f
+>>>>>>> 017b60115a3408325b62875db29001eaa1d86c64
+>>>>>>> 906d149b3d14a8187cf4bf13902a0b66c5901f7b
     }
 }
